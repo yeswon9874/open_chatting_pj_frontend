@@ -1,13 +1,17 @@
-import React from 'react';
+// import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import MainPage from './MainPage/MainPage.js';
+import MainButton from './MainPage/MainButton.js';
 import reportWebVitals from './reportWebVitals';
+//import './MainPage/TopNav.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MainButton></MainButton>
   </React.StrictMode>
 );
 
